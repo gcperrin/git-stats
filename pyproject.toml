@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "git-stats"
+version = "0.1.0"
+description = "Developer statistics for git repositories"
+authors = ["Greg Perrin <gregoryperrin.ucb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
